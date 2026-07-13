@@ -1,0 +1,87 @@
+/* ===========================
+        NAVBAR
+=========================== */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:999;
+    background:rgba(15,23,42,.85);
+    backdrop-filter:blur(15px);
+    transition:.4s;
+    padding:15px 0;
+}
+
+.navbar-brand{
+    color:#fff !important;
+    font-size:30px;
+    font-weight:700;
+}
+
+.navbar-brand span{
+    color:#38bdf8;
+}
+
+.navbar-nav .nav-link{
+    color:#fff !important;
+    margin-left:20px;
+    font-weight:500;
+    position:relative;
+    transition:.3s;
+}
+
+.navbar-nav .nav-link:hover{
+    color:#38bdf8 !important;
+}
+
+.navbar-nav .nav-link::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-5px;
+    width:0%;
+    height:2px;
+    background:#38bdf8;
+    transition:.4s;
+}
+
+.navbar-nav .nav-link:hover::after{
+    width:100%;
+}
+
+.social-icon{
+    color:white;
+    font-size:22px;
+    margin-left:18px;
+    transition:.3s;
+}
+
+.social-icon:hover{
+    color:#38bdf8;
+    transform:translateY(-3px);
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+
+@media(max-width:991px){
+
+.navbar-collapse{
+    background:#0f172a;
+    margin-top:15px;
+    padding:20px;
+    border-radius:12px;
+}
+
+.navbar-nav .nav-link{
+    margin:10px 0;
+}
+
+}

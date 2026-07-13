@@ -1,0 +1,91 @@
+/* ===========================
+        ABOUT
+=========================== */
+
+.about{
+    background:#0b1120;
+    padding:100px 0;
+}
+
+.about-title{
+    text-align:center;
+    color:#fff;
+    font-size:45px;
+    font-weight:700;
+}
+
+.about-subtitle{
+    text-align:center;
+    color:#94a3b8;
+    margin-bottom:60px;
+}
+
+.about-card{
+    background:#111827;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:20px;
+    padding:35px;
+    transition:.4s;
+    height:100%;
+}
+
+.about-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 30px rgba(56,189,248,.25);
+}
+
+.about-heading{
+    color:#38bdf8;
+    margin-bottom:20px;
+    font-weight:600;
+}
+
+.about-text{
+    color:#cbd5e1;
+    line-height:32px;
+    font-size:17px;
+}
+
+.info-item{
+    display:flex;
+    justify-content:space-between;
+    padding:12px 0;
+    border-bottom:1px solid rgba(255,255,255,.06);
+}
+
+.info-item span:first-child{
+    color:#38bdf8;
+    font-weight:600;
+}
+
+.info-item span:last-child{
+    color:#fff;
+}
+
+.about-stats{
+    margin-top:40px;
+}
+
+.stat-box{
+    background:#1e293b;
+    padding:25px;
+    border-radius:18px;
+    text-align:center;
+    transition:.4s;
+}
+
+.stat-box:hover{
+    background:#2563eb;
+    transform:translateY(-8px);
+}
+
+.stat-box h2{
+    color:#fff;
+    font-size:38px;
+    font-weight:700;
+}
+
+.stat-box p{
+    color:#cbd5e1;
+    margin:0;
+}

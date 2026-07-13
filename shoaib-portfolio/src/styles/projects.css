@@ -1,0 +1,145 @@
+/* ===========================
+        PROJECTS SECTION
+=========================== */
+
+.projects{
+    padding:100px 0;
+    background:#0b1120;
+}
+
+.section-title{
+    color:#fff;
+    font-size:45px;
+    font-weight:700;
+}
+
+.section-subtitle{
+    color:#94a3b8;
+    font-size:18px;
+    margin-top:10px;
+}
+
+.project-card{
+    background:#111827;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.4s;
+    border:1px solid rgba(255,255,255,.08);
+    height:100%;
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
+
+.project-card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 20px 45px rgba(56,189,248,.25);
+}
+
+.project-image{
+    width:100%;
+    height:230px;
+    overflow:hidden;
+    background:#1e293b;
+}
+
+.project-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.project-card:hover .project-image img{
+    transform:scale(1.08);
+}
+
+.project-content{
+    padding:25px;
+}
+
+.project-content h4{
+    color:#fff;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.project-content p{
+    color:#cbd5e1;
+    line-height:28px;
+    min-height:85px;
+}
+
+.tech-stack{
+    margin:20px 0;
+}
+
+.tech-stack span{
+    display:inline-block;
+    margin:5px;
+    padding:8px 14px;
+    border-radius:30px;
+    background:#1e293b;
+    color:#38bdf8;
+    font-size:13px;
+    border:1px solid rgba(56,189,248,.25);
+}
+
+.project-buttons{
+    display:flex;
+    gap:12px;
+    margin-top:20px;
+}
+
+.project-buttons .btn{
+    flex:1;
+    border-radius:10px;
+    font-weight:600;
+}
+
+.project-buttons .btn-info{
+    background:#0ea5e9;
+    border:none;
+}
+
+.project-buttons .btn-info:hover{
+    background:#0284c7;
+}
+
+.project-buttons .btn-outline-info{
+    border:1px solid #38bdf8;
+    color:#38bdf8;
+}
+
+.project-buttons .btn-outline-info:hover{
+    background:#38bdf8;
+    color:#fff;
+}
+
+/* Responsive */
+
+@media(max-width:991px){
+
+.section-title{
+    font-size:36px;
+}
+
+.project-content p{
+    min-height:auto;
+}
+
+}
+
+@media(max-width:768px){
+
+.projects{
+    padding:70px 0;
+}
+
+.section-title{
+    font-size:30px;
+}
+
+.project-buttons{
+    flex-direction:column;
+}
+
+}

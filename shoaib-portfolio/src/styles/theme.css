@@ -1,0 +1,76 @@
+.theme-btn{
+
+position:fixed;
+right:25px;
+bottom:100px;
+
+width:55px;
+height:55px;
+
+border:none;
+border-radius:50%;
+
+background:#0ea5e9;
+color:#fff;
+
+font-size:22px;
+
+cursor:pointer;
+
+z-index:9999;
+
+transition:.3s;
+
+}
+
+.theme-btn:hover{
+
+transform:scale(1.1);
+
+}
+
+body[data-theme="dark"]{
+
+background:#020617;
+color:white;
+
+}
+
+body[data-theme="light"]{
+
+background:#f8fafc;
+color:#111827;
+
+}
+
+body[data-theme="light"] .navbar,
+body[data-theme="light"] .project-card,
+body[data-theme="light"] .skill-card,
+body[data-theme="light"] .about-card,
+body[data-theme="light"] .experience-card,
+body[data-theme="light"] .education-card,
+body[data-theme="light"] .certificate-card,
+body[data-theme="light"] .contact-form,
+body[data-theme="light"] .contact-info,
+body[data-theme="light"] .feedback-card{
+
+background:white;
+color:#111827;
+
+}
+
+body[data-theme="light"] p,
+body[data-theme="light"] span{
+
+color:#475569;
+
+}
+
+body[data-theme="light"] h1,
+body[data-theme="light"] h2,
+body[data-theme="light"] h3,
+body[data-theme="light"] h4{
+
+color:#111827;
+
+}

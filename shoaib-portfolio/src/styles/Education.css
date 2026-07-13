@@ -1,0 +1,89 @@
+.education{
+
+padding:100px 0;
+
+background:#0b1120;
+
+}
+
+.education-card{
+
+background:#111827;
+
+padding:30px;
+
+border-radius:20px;
+
+height:100%;
+
+transition:.4s;
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+.education-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 15px 35px rgba(56,189,248,.25);
+
+}
+
+.education-icon{
+
+width:60px;
+
+height:60px;
+
+background:#0ea5e9;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+color:white;
+
+font-size:24px;
+
+margin-bottom:20px;
+
+}
+
+.education-card h4{
+
+color:white;
+
+font-weight:700;
+
+}
+
+.education-card h5{
+
+color:#38bdf8;
+
+margin:10px 0;
+
+}
+
+.education-card span{
+
+color:#94a3b8;
+
+display:block;
+
+margin-bottom:15px;
+
+}
+
+.education-card p{
+
+color:#cbd5e1;
+
+line-height:28px;
+
+}
